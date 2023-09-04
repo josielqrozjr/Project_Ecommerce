@@ -64,6 +64,17 @@ header {
     border: 0.5px solid #ccc;
 }
 
+.carrinho-geral-fechado {
+    position: fixed;
+    top: 0;
+    right: -360px;
+    background-color: brown;
+    width: 360px;
+    height: 100vh;
+    color: aliceblue;
+    border: 0.5px solid #ccc;
+}
+
 .carrinho-cabecalho {
     display: flex;
     justify-content: space-between;
