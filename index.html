@@ -9,18 +9,25 @@
 </head>
 <body>
 
-    <section id="carrinho">
-        <div id="cabecalho-carrinho">
+    <section class="carrinho-geral" id="carrinho">
+        <div class="carrinho-cabecalho" id="cabecalho-carrinho">
             <p>Meu carrinho</p>
             <button id="fechar-carrinho">X</button>
         </div>
-
+        <section id="produtos-carrinho">
+            <p>Camisa Larga com Bolsos</p>
+            <p>Casaco Reto com Lã</p>
+            <p>Jaqueta com Efeito Camurça</p>
+        </section>
+        <p id="preco-total">$200</p>
+        <button class="button-compra">Finalizar Compra</button>
     </section>
+
     <header class="header">
         <img src="./assets/logo/hashtag.svg" class="logo-decoration" alt="Logo da empresa Magazine Hashtag">
         <div class="button-header">
             <button>HISTÓRICO</button>
-            <button>CARRINHO</button>
+            <button id="abrir-carrinho">CARRINHO</button>
         </div>
     </header>
 

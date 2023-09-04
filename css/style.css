@@ -34,6 +34,8 @@ header {
     height: 400px;
     background-color: whitesmoke;
     margin: 10px;
+    border-radius: 10px;
+    border: 0.5px solid #ccc;
 }
 
 .logo-decoration {
@@ -51,12 +53,26 @@ header {
     color: aliceblue;
 }
 
-#carrinho {
+.carrinho-geral {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0px;
     background-color: brown;
     width: 360px;
     height: 100vh;
     color: aliceblue;
+    border: 0.5px solid #ccc;
+}
+
+.carrinho-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+.button-compra {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
 }
