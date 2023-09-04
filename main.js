@@ -68,7 +68,7 @@ const catalogo = [
   ];
   
   for (const produtoCatalogo of catalogo) {
-    const cartaoProduto = `<div class="cards-produto" id="card-produto-${catalogo.id}">
+    const cartaoProduto = `<div class="cards-produto" id="card-produto-${produtoCatalogo.id}">
   <img
     src="./assets/img/${produtoCatalogo.imagem}"
     alt="Produto 1 do Magazine Hashtag." class="cards-img"
@@ -81,6 +81,6 @@ const catalogo = [
   </div>`;
   
     document.getElementById("container-produto").innerHTML += cartaoProduto;
-    }
+  }
 
 inicializarCarrinho()
