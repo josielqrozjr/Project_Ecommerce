@@ -4,9 +4,10 @@ body {
     padding: 0;
 }
 
-button {
+.button-page {
     background: none;
     border: 0.5px solid white;
+    border-radius: 5px;
     color: aliceblue;
 }
 
@@ -50,6 +51,7 @@ header {
 
 .button-header {
     display: flex;
+    gap: 10px;
     color: aliceblue;
 }
 
